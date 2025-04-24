@@ -11,4 +11,8 @@ nome = input('Digite um nome para remover da lista: ')
 
 if nome in nomes:
     nomes.remove(nome)
-    
+    print(nomes)
+    print(len(nomes))
+
+else:
+    print('Nome não encontrado')
