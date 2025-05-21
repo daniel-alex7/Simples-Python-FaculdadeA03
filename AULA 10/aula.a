@@ -1,0 +1,6 @@
+# Métodos, dividindo para conquistar
+# São "subprogramas" que criamos para determinada função e depois assionamos ele
+# Parecidos com procedimentos(método sem retorno) e função(método com retorno)
+
+# def nomeMetodo(lista de parametros):
+#  lista de comandos
