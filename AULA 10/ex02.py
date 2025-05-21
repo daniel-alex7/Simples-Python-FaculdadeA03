@@ -13,11 +13,16 @@ def ClassificarImc(argIMC):
         print("Acima do Peso")
     return(argIMC)
 
-a = float(input("Digite sua altura: "))
-p = float(input("Digite seu peso: "))
+def EntradaDados():
+    a = float(input("Digite sua altura: "))
+    p = float(input("Digite seu peso: "))
+    
+    imcCal = Calcularimc(a,p) 
+    print(f"Seu índice de massa é {imcCal:.1f}")
+    
+    ClasIMC = ClassificarImc(imcCal) #só chamar variavel dentro do método
+    
+    
+EntradaDados()
 
-ret = Calcularimc(a,p)
 
-c = ClassificarImc(ret) #só chamar variavel dentro do método
-
-print(f"Seu índice de massa é {ret}")
